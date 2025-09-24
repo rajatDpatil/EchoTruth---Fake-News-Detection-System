@@ -138,5 +138,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This tool is designed for educational and research purposes. While it achieves high accuracy, always verify important news with multiple trusted sources before making decisions based on the predictions.
 
 ---
-
-**Made with ❤️ and AI**
