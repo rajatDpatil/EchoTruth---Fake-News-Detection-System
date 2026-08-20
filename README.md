@@ -7,10 +7,10 @@
 
 An intelligent machine learning system that detects fake news and misinformation with **99% accuracy** using advanced Natural Language Processing techniques.
 
-## 🌟 User Interface 
+## User Interface 
 ![Image Alt](https://github.com/rajatDpatil/EchoTruth---Fake-News-Detection-System/blob/e295a697a2aefa16e5efdef4a084fdecf7d82c0f/UI.jpg)
 
-## 🚀 Features
+## Features
 
 - **High Accuracy**: 99% accuracy on test dataset
 - **Real-time Detection**: Instant analysis of news articles
@@ -19,7 +19,7 @@ An intelligent machine learning system that detects fake news and misinformation
 - **Sample Testing**: Built-in real and fake news samples
 - **Mobile Responsive**: Works seamlessly on all devices
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -28,7 +28,7 @@ An intelligent machine learning system that detects fake news and misinformation
 | Recall | 99% |
 | F1-Score | 99% |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Machine Learning**: Scikit-learn
 - **Algorithm**: Logistic Regression with TF-IDF Vectorization
@@ -36,7 +36,7 @@ An intelligent machine learning system that detects fake news and misinformation
 - **Data Processing**: Pandas, NumPy
 - **Model Serialization**: Joblib
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 EchoTruth/
@@ -50,7 +50,7 @@ EchoTruth/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run in Google Colab
 
@@ -60,7 +60,7 @@ EchoTruth/
 2. Run all cells to train the model
 3. Run the Gradio app cell for instant deployment
 
-## 📖 How It Works
+## How It Works
 
 1. **Data Preprocessing**: Clean and prepare news article text
 2. **Feature Extraction**: Convert text to numerical features using TF-IDF
@@ -68,7 +68,7 @@ EchoTruth/
 4. **Prediction**: Classify news as Real (1) or Fake (0)
 5. **Confidence Scoring**: Calculate prediction probability
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Detecting Fake News
 ```python
@@ -84,7 +84,7 @@ text = "Scientists develop new cancer treatment using immunotherapy techniques"
 # Result: ✅ REAL NEWS (Confidence: 96.8%)
 ```
 
-## 📈 Model Training Details
+## Model Training Details
 
 - **Dataset Size**: 44,898 articles (50% real, 50% fake)
 - **Features**: TF-IDF vectorization with 5000 features
@@ -92,7 +92,7 @@ text = "Scientists develop new cancer treatment using immunotherapy techniques"
 - **Cross-validation**: 5-fold cross-validation
 - **Training Time**: ~2 minutes on Google Colab
 
-## 🔧 Configuration
+## Configuration
 
 You can customize the model by modifying these parameters:
 
@@ -108,14 +108,14 @@ max_iter = 1000
 random_state = 42
 ```
 
-## 📊 Dataset Information
+## Dataset Information
 
 - **Source**: Kaggle Fake News Dataset
 - **Real News**: Verified articles from reliable sources
 - **Fake News**: Flagged misinformation and satire articles
 - **Preprocessing**: Text cleaning, lowercasing, punctuation removal
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -123,17 +123,13 @@ random_state = 42
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Kaggle for the fake news dataset
 - Gradio team for the amazing web interface framework
 - Scikit-learn developers for the ML tools
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is designed for educational and research purposes. While it achieves high accuracy, always verify important news with multiple trusted sources before making decisions based on the predictions.
 
